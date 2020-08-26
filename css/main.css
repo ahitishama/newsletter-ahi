@@ -1,0 +1,221 @@
+/* =================================== */
+/*	 Style By Ahitisham
+     25 August 2020
+/* =================================== */
+* {
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html,body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+    background-color: #fff;
+  }
+  /* Discount  */
+.discount{
+      background-color: #252162;
+      color: #DC525C;
+      text-align: center;
+      padding: 20px;
+  }
+  /* Banner */
+.banner1 {
+    background-image: url(../img/banner5.png);
+    height: 440px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.banner2 {
+    background-image: url(../img/banner4.jpg);
+    height: 240px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner2 {
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: contain;
+}
+/* products */
+
+.product-grid__wrapper {
+    display: flex;
+}
+.product-grid__product-wrapper {
+border: 1px solid #eaeaea;
+}
+
+.product-grid__btn {
+    display: inline-block;
+    font-size: 0.875em;
+    color: #777;
+    background: #eee;
+    padding: 0.5em 0.625em;
+    margin-top: 0.875rem;
+    margin-right: 0.625rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.product-grid__btn i.fa {
+    margin-right: 0.3125rem;
+}
+.product-grid__add-to-cart {
+    color: #fff;
+    background: #e91e63;
+}
+.product-grid__add-to-cart:hover {
+    background: #ee4c83;
+    border: 1px solid #ee4c83;
+}
+.product-grid__description {
+    font-size: 0.875em;
+    margin-top: 0.4375rem;
+    margin-bottom: 0;
+}
+.product-grid__title {
+    margin-top: 0.875rem;
+    display: block;
+    font-size: 1.125em;
+    color: #39AAE2;
+    height: 3em;
+    overflow: hidden;
+    position: relative;
+}
+.product-grid__title:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 2.4em;
+    height: 1.5em;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 50%);
+}
+/* price */
+
+.product-grid__product-wrapper .price-tag {
+    top: 0;
+    background: #e91e63;
+    color: #fff;
+    font-size: 10px;
+    padding: 12px 16px;
+    font-weight: 700;
+    right: 0;
+    border: 10px solid;
+}
+.product-grid__price {
+    color: #e91e63;
+    font-weight: bold;
+    letter-spacing: 0.4px;
+}
+.product-grid__product-wrapper {
+    padding: 1rem;
+     margin: 20px;
+}
+.product-grid__view {
+    color: #777;
+    background: #D7DF23;
+}
+.product-grid__view:hover {
+    border: 1px solid #D7DF23;
+}
+.product-grid__product {
+    padding: 1rem;
+    position: relative;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 4px;
+}
+.product-grid__img-wrapper {
+    width: 100%;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+.product-grid__img {
+    max-width: 100%;
+    height: 240px;
+    max-height: 100%;
+}
+
+
+
+
+/*Footer  */
+#lab_social_icon_footer {
+    padding: 40px 0;
+    background-color: #dedede;
+  }
+  
+  #lab_social_icon_footer a {
+    color: #333;
+  }
+  
+  #lab_social_icon_footer .social:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+  }
+  
+  #lab_social_icon_footer .social {
+    -webkit-transform: scale(0.8);
+    /* Browser Variations: */
+    
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+  }
+  /*
+      Multicoloured Hover Variations
+  */
+  
+  #lab_social_icon_footer #social-fb:hover {
+    color: #3B5998;
+  }
+  
+  #lab_social_icon_footer #social-tw:hover {
+    color: #4099FF;
+  }
+  
+  #lab_social_icon_footer #social-gp:hover {
+    color: #d34836;
+  }
+  
+  #lab_social_icon_footer #social-em:hover {
+    color: #f39c12;
+  }
+  .text-center {
+      text-align: center;
+  }
+
+
+  /* Media Query For Mobile */
+  @media only screen and (max-width: 600px) {
+    /* for product */
+    .product-grid__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /* for banner  */
+    .banner1 {
+        height: 280px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+    }
+    .banner2 {
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-size: contain;
+    }
+}
